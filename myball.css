@@ -1,0 +1,38 @@
+#box {
+	width: 200px;
+	height: 300px;
+	border: 2px solid;
+	margin: 10px auto;
+}
+
+#ball {
+	-webkit-transition: margin 2s ease;
+}
+
+.img0 {
+	background-image: url("img/red.png");	
+}
+
+.img1 {
+	background-image: url("img/green.png");
+}
+
+.img2 {
+	background-image: url("img/blue.png");
+}
+
+.move_up {
+	margin-top: 0px;	
+}
+
+.move_down {
+	margin-top: 250px;
+}
+
+.move_left {
+	margin-left: 0px;
+}
+
+.move_right {
+	margin-left: 150px;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns="http://www.w3.org/ns/widgets" height="200" id="http://myball.nguyen.open-vn.org" version="0.0.1" viewmodes="windowed fullscreen" width="200">
+    
+    <name short="MyBall">MyBall</name>    
+
+    <description>
+       Control the ball on your free time!
+    </description>
+    
+    <!-- Note: Author href MUST BE Url encoded 
+        @see http://en.wikipedia.org/wiki/Percent-encoding -->    
+    <author email="nguyen@open-vn.org" href="http://www.example.com">
+        Nguyễn Văn Cao Nguyên
+    </author>
+    
+    <icon src="icon.png"/>
+
+    <content src="index.html"/>
+    
+    <license>
+	   Copyright Nguyễn Văn Cao Nguyên, 2013.
+    </license>
+    
+   	<feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true" />
+</widget>
